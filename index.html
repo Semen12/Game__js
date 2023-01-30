@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Добро пожаловать!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="game">
+            <div class="game__block">
+                <h2 class="game__title">Время игры: <span id="game__time"> 5 </span> </h2>
+                <h2 class="game__result">Ваш результат: <span id="game__res"></span></h2>
+                <div class="game__space">
+                    <div class="game__body"></div>
+                    <button class="game__button">Начать</button>
+
+                </div>
+                <div class="game__input">
+                    <label> Время игры, сек <br>
+                        <input type="number" id="game__seconds" min="5" value="5" step="1">
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/game.js"></script>
+</body>
+
+</html>
